@@ -1,0 +1,75 @@
+import Vue from 'vue'
+import {
+  Button,
+  Swipe,
+  SwipeItem,
+  Tabbar,
+  TabbarItem,
+  Toast,
+  Grid,
+  GridItem,
+  Tab,
+  Tabs,
+  Lazyload,
+  Image,
+  ImagePreview,
+  Field,
+  Card,
+  List,
+  Search,
+  Icon,
+  SwipeCell,
+  Cell,
+  CellGroup,
+  Tag,
+  Divider,
+  Stepper,
+  SubmitBar,
+  Dialog,
+  Notify,
+  PullRefresh,
+  Row,
+  Col,
+  GoodsAction,
+  GoodsActionButton,
+  NoticeBar,
+  NumberKeyboard,
+  AddressList,
+  AddressEdit
+} from 'vant'
+
+Vue.use(NumberKeyboard)
+Vue.use(Button)
+Vue.use(Swipe).use(SwipeItem)
+Vue.use(Tabbar).use(TabbarItem)
+Vue.use(Toast)
+Vue.use(Card)
+Vue.use(Search)
+Vue.use(Icon)
+Vue.use(SwipeCell)
+Vue.use(Cell)
+Vue.use(CellGroup)
+Vue.use(Tag)
+Vue.use(Divider)
+Vue.use(Stepper)
+Vue.use(SubmitBar)
+Vue.use(Dialog)
+Vue.use(Notify)
+Vue.use(Image)
+Vue.use(Grid).use(GridItem)
+Vue.use(Tab).use(Tabs)
+Vue.use(Lazyload)
+Vue.use(ImagePreview)
+Vue.use(Field)
+Vue.use(NoticeBar)
+Vue.use(List)
+Vue.use(PullRefresh)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Stepper)
+Vue.use(GoodsAction)
+Vue.use(GoodsActionButton)
+Vue.use(AddressList)
+Vue.use(AddressEdit)
+
+Vue.prototype.$remind = Toast
